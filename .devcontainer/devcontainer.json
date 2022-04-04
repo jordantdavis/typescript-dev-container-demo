@@ -1,0 +1,8 @@
+{
+    "image": "node:16-bullseye",    // Debian w/ Node 16
+    "extensions": [
+        "dbaeumer.vscode-eslint",   // ESLint extension
+        "mohsen1.prettify-json"     // Prettify JSON extension
+    ],
+    "postStartCommand": "yarn"      // install dependencies after each container start
+}

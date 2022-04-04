@@ -1,0 +1,19 @@
+{
+  "name": "typescript-container-dev-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(yarn bin)/tsc -p .",
+    "start": "node build/index.js",
+    "watch": "$(yarn bin)/tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  }
+}
